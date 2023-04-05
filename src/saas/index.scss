@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mulish&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Mulish", sans-serif;
+
+  & a {
+    text-decoration: none;
+  }
+  & li {
+    list-style-type: none;
+  }
+  & p,
+  li {
+    font-size: 1rem;
+  }
+}
+
+/* ################################ start ########################################## */
+.head {
+  //parent....
+  background: #04011f;
+  // color: gold;
+
+  width: 100vw;
+  height: 100vh;
+  // overflow: auto;
+
+  .bigBox {
+    background-color: #04011f;
+  }
+  .box {
+    //child....
+    background-color: #04011f;
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 380px;
+    width: 80%;
+    border-radius: 1rem;
+    min-height: 450px;
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .date {
+    //child....
+    background-color: #fef250;
+    // background: #36d1dc;
+    // background: linear-gradient(to right, #5b86e5, #36d1dc);
+    // background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
+    border-radius: 0.3rem;
+    & h2 {
+      font-size: 2.5rem;
+      color: #000000;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+    & p {
+      color: #000000;
+    }
+  }
+}
+
+.head .box .inputFeild {
+  background-color: #e9f1f7;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+.head .box .logo {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.noteIcon {
+  color: #000000;
+  padding: 0 0.3rem;
+}
+
+// ############################# MUI ICON ##################################################
+
+.inputContainer {
+  // border: 2px solid red;
+  position: relative;
+}
+.addBtn {
+  position: fixed;
+  top: -41px;
+  right: -9.6rem;
+  color: #04011f !important;
+}
+
+// ############################# LIST ITEMS ##################################################
+
+.ownItem {
+  // width: 100%;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-color: #e9f1f7;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ownItem:hover {
+  background-color: #3e92cc;
+  color: #000000;
+}
+
+.ownItem .myBtn {
+  position: absolute;
+  right: 2px;
+  bottom: 4px;
+  color: #04011f;
+  // background-color: ;
+}
+
+.removeAll {
+  background-color: #e9f1f7;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  // margin-bottom: 15rem !important;
+}
+
+.removeAll .removeBtn {
+  width: 100%;
+  color: #000000 !important;
+}
+.removeAll:hover {
+  // content: "Remove All";
+  background-color: #3e92cc;
+}
+
+.footer {
+  width: 100%;
+  height: 5rem;
+  background-color: #04011f;
+}
+
+// ############################################# MEDIA QUERY ################################################
+
+@media (max-width: 430px) {
+  .addBtn {
+    position: absolute;
+    top: -41px;
+    right: -8rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .addBtn {
+    position: absolute;
+    top: -41px;
+    right: -6rem;
+  }
+}
+
+@media (max-width: 290px) {
+  .addBtn {
+    position: absolute;
+    top: -41px;
+    right: -5rem;
+  }
+}

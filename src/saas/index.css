@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mulish&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Mulish", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body li {
+  list-style-type: none;
+}
+body p,
+body li {
+  font-size: 1rem;
+}
+
+/* ################################ start ########################################## */
+.head {
+  background: #04011f;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+.head .box {
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: 380px;
+  width: 80%;
+  border-radius: 1rem;
+  min-height: 450px;
+}
+.head .date {
+  background-color: #fef250;
+  border-radius: 0.3rem;
+}
+.head .date h2 {
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.head .date p {
+  color: #000000;
+}
+
+.head .box .inputFeild {
+  background-color: #e9f1f7;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+.head .box .logo {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.noteIcon {
+  color: #000000;
+  padding: 0 0.3rem;
+}
+
+.ownItem {
+  border: 1px soli yellow !important;
+  color: #04011f;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-color: #e9f1f7;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
